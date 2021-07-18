@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.dicodingsubmission.githupuser">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <permission android:name="com.dicodingsubmission.githupuser.READ_DATABASE" android:protectionLevel="normal"/>
+    
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GitHupUser"
+        tools:ignore="AllowBackup">
+
+        <provider
+            android:name=".activity.provider.ContentProvider"
+            android:authorities="com.dicodingsubmission.githupuser"
+            android:enabled="true"
+            android:exported="true"
+            android:readPermission="com.dicodingsubmission.githupuser.READ_DATABASE" />
+
+        <receiver
+            android:name=".activity.alarm.AlarmReceiver"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".activity.alarm.AlarmActivity" />
+        <activity android:name=".activity.setting.SettingActivity" />
+        <activity android:name=".activity.favorite.FavoriteActivity" />
+        <activity android:name=".activity.main.MainActivity" />
+        <activity android:name=".activity.detailUser.DetailUserActivity" />
+        <activity android:name=".activity.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

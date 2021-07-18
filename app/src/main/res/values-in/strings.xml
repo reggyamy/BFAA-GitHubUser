@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">GitHub</string>
+    <string name="background">latar belakang</string>
+    <string name="search">cari</string>
+    <string name="following">Ikuti</string>
+    <string name="followers">Pengikut</string>
+    <string name="repository">Repositori</string>
+    <string name="tab_follower">Pengikut</string>
+    <string name="tab_following">Mengikuti</string>
+    <string name="language">Bahasa</string>
+    <string name="setting">Pengaturan</string>
+    <string name="reminder">Alarm</string>
+    <string name="alarm">Atur Alarm</string>
+    <string name="alarm_message">Tambah pesan pengingat</string>
+    <string name="save">Simpan Pengingat</string>
+    <string name="title_alarm">Pengingat Harian</string>
+    <string name="cancel_reminder">Pengingat Dibatalkan</string>
+    <string name="time_alarm">Waktu Alarm</string>
+</resources>

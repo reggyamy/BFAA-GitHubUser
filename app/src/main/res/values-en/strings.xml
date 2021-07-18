@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">GitHub</string>
+    <string name="background">background</string>
+    <string name="search">search</string>
+    <string name="following">Following</string>
+    <string name="followers">Followers</string>
+    <string name="repository">Repositories</string>
+    <string name="tab_follower">Followers</string>
+    <string name="tab_following">Following</string>
+    <string name="language">Language</string>
+    <string name="setting">Setting</string>
+    <string name="reminder">Alarm</string>
+    <string name="alarm">Set Alarm</string>
+    <string name="alarm_message">Add message reminder</string>
+    <string name="save">Save Reminder</string>
+    <string name="title_alarm">Daily Reminder</string>
+    <string name="cancel_reminder">Cancel Reminder</string>
+    <string name="time_alarm">Time Alarm</string>
+</resources>
